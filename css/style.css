@@ -727,7 +727,7 @@ button {
 
 #teach {
     background: #121118;
-    min-height: 200vh;
+    min-height: 180vh;
 }
 
 .teach {
@@ -808,4 +808,182 @@ button {
     font-size: 23px;
     font-weight: 400;
     color: #FFFFFFB2;
+}
+
+#courses {
+    background: #121118;
+}
+
+.courses-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.courses h1 {
+    font-size: 58px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 109px;
+}
+
+.courses-group-one {
+    display: flex;
+    align-items: center;
+}
+
+.courses-image {
+    position: relative;
+}
+
+.courses-img-text h2 {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 14px;
+}
+
+.courses-img-text {
+    position: absolute;
+    bottom: 35px;
+    left: 15px;
+}
+
+.courses-text-icon {
+    display: flex;
+    align-items: center;
+}
+
+.courses-text-icon ion-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.courses-text-icon h3 {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.courses-block {
+    width: 300px;
+    height: 400px;
+    background: #85E9A5;
+    padding: 20px 0 0 30px;
+}
+
+.courses-block h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #95FEC1;
+    text-transform: uppercase;
+}
+
+.courses-block h3 {
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+    line-height: 36px;
+    padding: 17px 0 23px 0;
+}
+
+.courses-block p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 291px;
+    line-height: 22px;
+    padding-bottom: 95px;
+}
+
+.courses-block-icon {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    padding-right: 24px
+}
+
+.courses-block-icon h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-right: 24px;
+}
+
+.courses-block-icon ion-icon {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.courses-group-two {
+    display: flex;
+    align-items: center;
+}
+
+.courses-block-icon-1 {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: 80px;
+}
+
+.courses-block-icon-1 h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-right: 24px;
+}
+
+.courses-block-icon-1 ion-icon {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+
+#footer {
+    background: #121118;
+    padding: 100px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-text-general {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-text-one {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.footer-text-one h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding: 0 0 38px 0;
+}
+
+.footer-text-one a {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 8px 0;
+}
+
+.footer-ion-icon {
+    color: white;
+    font-size: 30px;
+    padding: 0 5px 0 5px;
+    font-weight: 400;
 }
